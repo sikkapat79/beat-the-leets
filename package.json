@@ -1,0 +1,27 @@
+{
+  "name": "beat-the-leets",
+  "version": "1.0.0",
+  "description": "TDD learning template for LeetCode problems with context engineering",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Linting not configured yet'"
+  },
+  "keywords": [
+    "leetcode",
+    "tdd",
+    "typescript",
+    "jest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.16",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
